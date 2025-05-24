@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews | Ramanathan Muthu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="index.html">Ramanathan Muthu</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="reviews.html" class="active">Reviews</a>
+                <a href="resources.html">PM Resources</a>
+                <a href="about.html">About</a>
+            </div>
+            <div class="nav-actions">
+                <button id="search-btn" aria-label="Search"><i class="fas fa-search"></i></button>
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun light-icon"></i>
+                    <i class="fas fa-moon dark-icon"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <div id="search-overlay" class="hidden">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search...">
+                <button id="close-search" aria-label="Close search"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+
+        <header class="page-header">
+            <h1>🔍 Reviews</h1>
+            <p>In-depth analysis and honest opinions on tech tools, products, and services.</p>
+        </header>
+
+        <main id="reviews-page" class="current-page">
+            <section id="reviews-content">
+                <div class="card-grid">
+                    <!-- Sample Review Card -->
+                    <div class="content-card featured">
+                        <div class="card-tag">Movie</div>
+                        <h3>Movie Review: "AI Revolution" (2025)</h3>
+                        <p class="card-date">May 22, 2025</p>
+                        <p class="card-excerpt">A thought-provoking look at how artificial intelligence is reshaping our world, with surprisingly balanced perspectives on both the promise and perils.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Ramanathan Muthu. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

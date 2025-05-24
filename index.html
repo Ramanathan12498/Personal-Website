@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramanathan Muthu | Personal Workspace</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="index.html">Ramanathan Muthu</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="reviews.html">Reviews</a>
+                <a href="resources.html">PM Resources</a>
+                <a href="about.html">About</a>
+            </div>
+            <div class="nav-actions">
+                <button id="search-btn" aria-label="Search"><i class="fas fa-search"></i></button>
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun light-icon"></i>
+                    <i class="fas fa-moon dark-icon"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <div id="search-overlay" class="hidden">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search...">
+                <button id="close-search" aria-label="Close search"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+
+        <header>
+            <div class="header-content">
+                <h1>Ramanathan Muthu</h1>
+                <p class="tagline">Exploring AI tools and Product Management.</p>
+            </div>
+        </header>
+
+        <main id="home-page" class="current-page">
+            <section id="latest">
+                <h2>Latest</h2>
+                <div class="card-grid">
+                    <!-- Sample Card 1 -->
+                    <div class="content-card">
+                        <div class="card-tag">Review</div>
+                        <h3>AI Assistant Comparison: Claude vs ChatGPT</h3>
+                        <p class="card-date">May 21, 2025</p>
+                        <p class="card-excerpt">Looking at the strengths and weaknesses of two leading AI assistants: how they handle different tasks and which is best for what.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                    
+                    <!-- Sample Card 2 -->
+                    <div class="content-card">
+                        <div class="card-tag">PM Resources</div>
+                        <h3>Key Metrics for AI Product Management</h3>
+                        <p class="card-date">May 18, 2025</p>
+                        <p class="card-excerpt">A guide to the essential metrics every product manager should track when developing AI-powered products.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                    
+                    <!-- Sample Card 3 -->
+                    <div class="content-card">
+                        <div class="card-tag">Review</div>
+                        <h3>The Best VS Code Extensions for Product Managers</h3>
+                        <p class="card-date">May 12, 2025</p>
+                        <p class="card-excerpt">My top 10 Visual Studio Code extensions that make technical PM work easier and more efficient.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="connect">
+                <h2>Connect</h2>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Ramanathan Muthu. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
